@@ -1,11 +1,15 @@
+package modelo.actividades;
+
+//Charla hereda Serializable
+
 public class Charla extends Actividad {
     private String disertante;
 
     //--------------------------CONSTRUCTOR--------------------------
 
-    //Se pasan los parametros de la clase Charla y la de Actividad (SUPERCLASE)
+    //Se pasan los parametros de la clase modelo.actividades.Charla y la de modelo.actividades.Actividad (SUPERCLASE)
     public Charla (int id, String titulo, int cupoMaximo, String disertante) {
-        super(id, titulo, cupoMaximo); //Se llama al constructor de Actividad
+        super(id, titulo, cupoMaximo); //Se llama al constructor de modelo.actividades.Actividad
         this.disertante = disertante;
     }
 

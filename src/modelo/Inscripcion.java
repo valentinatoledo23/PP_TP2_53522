@@ -1,6 +1,12 @@
+package modelo;
+
+import modelo.actividades.Actividad;
+
 import java.time.LocalDate;
 
-public class Inscripcion {
+import java.io.Serializable;
+
+public class Inscripcion implements Serializable {
     private final Estudiante estudiante;
     private final Actividad actividad;
     private LocalDate fecha;

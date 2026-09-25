@@ -104,5 +104,3 @@ El programa, al ejecutarse:
 
 ### Alumna:
 Valentina Toledo - Legajo 53522
-
-> Reemplazá la ruta con la imagen de tu ejecución (por ejemplo, `docs/salida.png`).
